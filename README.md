@@ -5,12 +5,18 @@
 ini adalah cara bagaimana kita bisa menerapkan code spasi url di `terminal` kita
 
 - `setup`
+```python
 > apt-get update                              
 > apt full-upgrade                             
 > apt install php dialog                       
 > apt install util_linux                         
 > apt install git                              
-
+> apt install python
+> pip install xonsh
+> pip install flask
+> pip install flask_restful
+> apt-get install jq
+```
 ```python
 Me Team : Helixs-crew & COINTER
 ```
