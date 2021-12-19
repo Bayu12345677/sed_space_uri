@@ -1,15 +1,23 @@
 #!/bin/env xonsh
 
-import requests as req
-from fake_useragent import UserAgent
+from flask import Flask, request, abort, jsonify
+from flask_restful import Api, Resource
 
-ua_local = UserAgent()
-get_ua = ua_local.random
+"""
+    example flask restfull by polygon
+"""
 
-url=$(echo "http://localhost:5000/api/halo world")
+app = Flask(__name__)
+api = Api(app)
 
-var = req.get($(echo $url | sed -f ../main.sed), headers="User-Agent:" + get_ua).text
+class null(Resource):
+      def get(self):
+          return jsonify({"info":"gunakan rute /api/<text_anda>"})
 
-echo @(var) | jq .
+class home(Resource):
+      def get(self, og):
+          return jsonify({"msg": og})
 
-# code by polygon
+api.add_resource(home, '/api/<og>')
+
+app.run(debug=True)
