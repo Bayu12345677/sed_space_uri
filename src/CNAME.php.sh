@@ -44,6 +44,7 @@ sed -e '<substion>'
 EOF
 )
 
+echo "$index"> debug.html
 usage(){
 cat << __EOF__
 
