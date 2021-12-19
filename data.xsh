@@ -2,6 +2,6 @@
 
 import sys, os
 
-var = "halo world*
+var = "halo world"
 
 echo @(var) | sed -f main.sed
