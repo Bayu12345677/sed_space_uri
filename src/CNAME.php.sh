@@ -6,7 +6,7 @@ source desk
 host=localhost #local host
 port=8090 #port
 title="Code by polygon"
-content=main.sed
+content=../main.sed
 
 # content main.sed
 
@@ -116,7 +116,7 @@ unity=${@:2:15}
 
                        (
                      {
-                           scrap=$(echo "$input" | sed -f main.sed)
+                           scrap=$(echo "$input" | sed -f ../main.sed)
 
                          (gtk.input printx "$title" "$scrap")
                              clear
