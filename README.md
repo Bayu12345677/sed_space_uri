@@ -1,6 +1,7 @@
 ## example sed simple
 
 [![](https://img.shields.io/github/repo-size/Bayu12345677/sed_space_uri)](https://github.com/Bayu12345677)
+[![](https://img.shields.io/static/v1?style=flat&logo=firefox&label=Author&message=polygon&color=yellow
 
 ini adalah cara bagaimana kita bisa menerapkan code spasi url di `terminal` kita
 
