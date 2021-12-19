@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# ini kerl "#!" nama nya header
 source desk
 
 host=localhost #local host
