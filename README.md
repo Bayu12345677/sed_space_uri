@@ -8,7 +8,7 @@ ini adalah cara bagaimana kita bisa menerapkan code spasi url di `terminal` kita
 > apt-get update                              
 > apt full-upgrade                             
 > apt install php dialog                       
-> apt install util_linux
+> apt install util_linux                         
 > apt install git                              
 
 ```python
