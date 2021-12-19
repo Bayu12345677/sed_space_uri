@@ -1,6 +1,6 @@
 #!/bin/env xonsh
 
-import request as req
+import requests as req
 from fake_useragent import UserAgent
 
 ua_local = UserAgent()
