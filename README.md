@@ -11,7 +11,7 @@ ini adalah cara bagaimana kita bisa menerapkan code spasi url di `terminal` kita
 > apt install util_linux
 > apt install git                              
 
-> report bug : 6285731184377
-``
+> report bug : 6285731184377                    
+``                                             
 > email : bayuriski558@gmail.com
 
