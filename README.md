@@ -11,6 +11,10 @@ ini adalah cara bagaimana kita bisa menerapkan code spasi url di `terminal` kita
 > apt install util_linux
 > apt install git                              
 
+```python
+Me Team : Helixs-crew & COINTER
+```
+
 > report bug : 6285731184377                        
 > email : bayuriski558@gmail.com
 
